@@ -14,16 +14,16 @@ margin: 0;
   color: white;
   font-weight: bold;
   font-size: 3rem;
-  margin-left: 20%;
+  margin-left: 10%;
   padding-top: 30px;
   display: inline-block;
 }
 .anchor{
-  margin-right: 3%;
+  margin-right: 6%;
   color: white;
   font-weight: bold;
-  font-size: 1.3rem;
-  padding-top: 20px;
+  font-size: 1.5rem;
+  padding-top: 50px;
 }
 a{
   padding: 5px;
@@ -36,7 +36,7 @@ a:hover{
 
 .headings{
   color: white;
-  margin-left: 20%;
+  margin-left: 10%;
   display: inline-block;
   text-align: left;
   margin-right: 30%;
@@ -60,16 +60,19 @@ a:hover{
  font-weight: bolder;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 890px) {
   .anchor{
-    margin-right: 0.5%;
+    margin-right: 2.2%;
     font-size: 1rem;
+
   }
   .zipps{
-    margin-left: 8%;
+    margin-left: 5%;
+
   }
   .headings{
-    margin-left: 8%;
+    margin-left: 5%;
+
   }
   .btn1{
     font-size: 12px;
@@ -143,6 +146,9 @@ text-align: center;
 p{
   line-height:auto;
 }
+.row{
+  min-height: 600px;
+}
 .rock{
   float: left;
   width: 25%;
@@ -154,6 +160,7 @@ p{
   display: table;
   clear: both;
 }
+
 .project-img{
   width:100%;
   height:65%;
@@ -165,7 +172,7 @@ p{
   padding: 7px;
   cursor: pointer;
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:1100px){
   .project-img{
     height: 45%;
   }
@@ -173,12 +180,6 @@ p{
     font-size:12px;
   }
 }
-@media screen and (max-width:950px) and (min-width:700px){
-  .rock{
-    height: 500px;
-  }
-}
-
 .column-1{
   display: inline-block;
 padding: 20px;
@@ -195,7 +196,6 @@ text-align: center;
   padding: auto;
   text-align: center;
 }
-
 .x1{
   float: left;
 }
@@ -206,10 +206,10 @@ text-align: center;
 .x3{
   float: right;
 }
-
 .icon-2{
   color: #A12568;
 }
+
 
 .zippy-team{
   width: 60%;
@@ -271,11 +271,16 @@ text-align: center;
 .zippy-life{
   background-color: #FFF7AE;
 }
+.zl-img-top{
+  width:70%;
+  text-align:center;
+   margin:auto;
+}
 .zl-img1{
- width:72%;
+ width:60%;
 }
 .zl-img2{
-  width: 24%;
+  width: 20%;
 }
 .zl-img-bottom{
   border: 10px;
@@ -340,7 +345,7 @@ display: flex;
   margin: auto;
   min-height: 400px;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 .blow{
   display: inline-block;
@@ -364,7 +369,7 @@ text-align: center;
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
   width: 80px;
 }
@@ -429,7 +434,7 @@ color: white;
   margin: auto;
   min-height: 200px;
   text-align: center;
-  padding: 17px;
+  padding: 10px;
 }
 .cn{
   display: inline-block;
@@ -448,22 +453,46 @@ text-align: center;
 .third-bottom{
   float: right;
 }
-@media screen and (max-width: 745px) {
+@media screen and (max-width:1100px) {
+  .second-inner{
+    width:85%;
+  }
   .icon-inner{
-    width:98%;
+    width: 95%;
   }
   .pr{
-    width:98%;
-  }
-  .btn2{
-    font-size: 11px;
-    padding: 8px;
+    width: 95%;
   }
   .full-blog{
-    width:98%;
-    padding: 5px;
+    width:95%;
   }
   .bottom-inside{
+    width:85%;
+  }
+  .zl-img-top{
     width:90%;
+  }
+  .zl-img1{
+   width:93%;
+  }
+  .zl-img2{
+    width: 30%;
+  }
+  .map-contact{
+    min-height: 400px;
+  }
+  .india{
+    height: 400px;
+  }
+  .contact{
+    height: 400px;
+  }
+  .contact-form{
+    width: 90%;
+    height: 60%;
+    margin-top: 5%;
+  }
+  label{
+    font-size: 25px;
   }
 }
