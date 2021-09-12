@@ -17,11 +17,9 @@ h1,h2,h3,h4,h5,h6{
 @media screen and (max-width:1100px) {
   #testimonials{
     margin-top: 350px;
-    /* margin-bottom: 200px; */
   }
   .carousel-item{
-    padding-left:  5%;
-    padding-right: 5%;
+    padding: inherit;
   }
 }
 
@@ -39,6 +37,7 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold;
   font-size: 3rem;
   margin-left: 10%;
+  margin-top: 7%;
   padding-top: 30px;
   display: inline-block;
 }
@@ -169,14 +168,15 @@ text-align: center;
   border-radius: 4px;
   padding: 10px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
+  width: 130px;
 }
 p{
   line-height:auto;
 }
 .raw{
-  min-height: 600px;
+  min-height: 700px;
   text-align:left;
    margin-top:50px;
 }
@@ -184,7 +184,7 @@ p{
   float: left;
   width: 25%;
   /* padding: 10px; */
-  height: 600px;
+  height: 700px;
 }
 .raw:after{
   content: "";
@@ -225,7 +225,7 @@ p{
       margin-top: 320px;
   }
   .rock{
-    height: 600px;
+    height: 750px;
     width: 50%;
   }
   .project-img{
@@ -243,7 +243,7 @@ width: 22%;
 text-align: center;
 }
 .pr{
-  width: 60%;
+  width: 70%;
 	position: relative;
 	left:0;
   right: 0;
@@ -452,9 +452,9 @@ text-align: center;
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
-  width: 80px;
+  width: 130px;
 }
 .blog-image{
   width: 100%;
@@ -499,9 +499,9 @@ label{
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  width: 185px;
+  width: 210px;
   height: auto;
 color: white;
 }
@@ -620,4 +620,12 @@ text-align: center;
     font-size: 25px;
   }
 
+}
+.zoom{
+  transition: transform .2s;
+}
+.zoom:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+ -webkit-transform: scale(0.9); /* Safari 3-8 */
+ transform: scale(0.9);
 }
